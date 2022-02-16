@@ -1,0 +1,23 @@
+Version 0.1.2
+<h2 align=center>tla05-input output by Evan</h2>
+
+<a href="https://www.wschools.com/jsref/prop_html_innerhtml.asp">Good reference to input output
+Javascript innerHTML value by Evan</a>
+
+<h4> Example input output code</h4>
+<pre>
+  let myIn01 = document.getElementById('myNum01').value
+  document.getElementById('myDiv01').innerHTML = myIn10 + ' squared = ' + myIn01
+  </pre>
+
+<h4> Example working code</h4>
+
+<input id="myNum01" type=number value="4 ><br>
+                                       
+                                       <input type=button value"myEvent squares" onclick="{
+       let myIn01 = parseFloat(document.getElementById('myNum01').value)
+       let myAnswer = myIn01 * myIn01
+       document.getElementById('myDiv01').innerHTML =
+       }"><br>
+         
+         <div id="myDiv01">...</div>
