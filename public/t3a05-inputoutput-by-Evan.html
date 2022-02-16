@@ -7,17 +7,18 @@ Javascript innerHTML value by Evan</a>
 <h4> Example input output code</h4>
 <pre>
   let myIn01 = document.getElementById('myNum01').value
-  document.getElementById('myDiv01').innerHTML = myIn10 + ' squared = ' + myIn01
-  </pre>
+  document.getElementById('myDiv01').innerHTML = myIn10 + ' squared = ' + 
+myIn01*myIn01
+</pre>
 
 <h4> Example working code</h4>
 
 <input id="myNum01" type=number value="4 ><br>
                                        
-                                       <input type=button value"myEvent squares" onclick="{
+<input type=button value"myEvent squares" onclick="{
        let myIn01 = parseFloat(document.getElementById('myNum01').value)
        let myAnswer = myIn01 * myIn01
        document.getElementById('myDiv01').innerHTML =
-       }"><br>
+}"><br>
          
-         <div id="myDiv01">...</div>
+<div id="myDiv01">...</div>
