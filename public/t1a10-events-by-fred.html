@@ -1,0 +1,46 @@
+
+
+Version 0.0.1
+
+<h2 align=center>t2a01-arrays-by-Fred.html</h2>
+
+<a href="https://way2tutorial.com/html/html5_events_handler_list.php">Good reference to HTML Events</a><br>
+
+Arrays store numbered variables
+
+<h4> Example Functions code</h4>
+<pre>
+   myArray = new Array()
+   myArray[0] = 'Fred'
+   myArray[1] = 'Mary'
+
+</pre>
+
+<h4> Example working code</h4>
+
+
+<input type=text id="myText01" value="3"><br>
+
+<input type=button value="Example onClick" onClick="{
+   let myTemp = document.getElementById('myText01').value
+   let mySum = ''
+   document.getElementById('myDiv01').innerHTML = ' '
+
+   myArray = new Array()
+   myArray[0] = 'Fred'
+   myArray[1] = 'Mary'
+   myArray[2] = 'Zizzy'
+
+   for (let myLoop=0;   myLoop < myTemp;  myLoop++){
+      mySum += 'Loop #: ' + myLoop + ' array entry: ' + myArray[myLoop] +'<br>'
+   }
+   document.getElementById('myDiv01').innerHTML = mySum
+}">
+
+<div id="myDiv01">...</div>
+
+
+<br>
+
+You do at least 8 other arrays:<br>
+
