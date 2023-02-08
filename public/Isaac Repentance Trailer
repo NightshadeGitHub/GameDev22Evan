@@ -1,0 +1,70 @@
+<html>
+<head> 
+<titl> All about Isaac Repentance </title>
+<style>
+body {
+  background-image: url(https://my4kwallpapers.com/wp-content/uploads/2021/03/The-Flash-4k-Wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+</style>
+</head>
+<body text="red">
+<h5>Version 0.6.5</h5>
+
+<h1 align=center>T3A01-Web-Basics-by-Evan.html </h1>
+<a href="https://moddingofisaac.com/">Best Isaac Repentance Mods</a><br>
+  <p><font color="Red">
+ Plain Text <b> Bold </b> and <i> Italic, </i> Whos your favorite character? <i> <b> Azazel has brimstone! </b> </i><br>
+    </font>
+  </font>
+  </p>
+<hr>
+Azazel is my favorite character$$ <br>
+<img width=300
+src="https://i0.wp.com/foursoulsspoiler.net/wp-content/uploads/gold2-azazel.png?w=500&ssl=1"><br><br>
+  
+Binding of Issac Repentance Trailer!!<br>
+<iframe width="300" height="200" src="https://youtu.be/JUKJYuSN_KM" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<hr>
+<p><font color="red">
+<div>This is a </div>
+<div>div</div>
+<span> Isaac uses</span>
+<span> a span</span>
+<span> to beat moms heart</span>
+  </font>
+</font>
+</p>
+<h3> Binding of Isaac Repentance </h3>
+
+<p><font color="red">
+<input type=button value="0. Pseudo Code" onclick="{
+   document.getElementById('myDiv01').innerHTML = 'Hello Cruel World'
+}">
+  
+<input type=button value="1. Input/Output" onclick="{
+   document.getElementById('myDiv01').innerHTML = 'Input Kill Mega Satin,br>'
+   +'Godhead!!<br>Rubber Cement!<br>output is...'
+}">
+ 
+  <input type=button value="4. Kill Mom" onclick="{
+   document.getElementById('myDiv01').innerHTML = `
+ Decisions use the if statement to make true
+ false variable decisions<br>
+<pre>
+if (hour < 18) {
+  greeting = \'The trap is open\';
+}
+</pre>
+            </font>
+</font>
+</p>                                        
+`}"><br>
+ 
+<div id="myDiv01">...</div>
+<body>
+</html>
